@@ -1,7 +1,23 @@
-.env
+
 credentials.json
+*.json
+
+
+.env
+.env.*
+
+*.tfstate
+*.tfstate.backup
 .terraform/
-*.exe
-terraform.tfstate
-terraform.tfstate.backup
+*.tfvars
+
+
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+.DS_Store
+Thumbs.db
 

@@ -1,23 +1,19 @@
-
+# sensitive files
 credentials.json
-*.json
-
-
+.json
 .env
 .env.*
 
+# venv/
+__pycache__/
+*.py[cod]
+
+# Terraform 
 *.tfstate
 *.tfstate.backup
 .terraform/
-*.tfvars
 
-
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-
-
+# IDE files
 .DS_Store
 Thumbs.db
 

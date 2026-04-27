@@ -3,6 +3,7 @@ credentials.json
 .json
 .env
 .env.*
+requirements.txt
 
 # venv/
 __pycache__/
@@ -12,6 +13,7 @@ __pycache__/
 *.tfstate
 *.tfstate.backup
 .terraform/
+variables.tf
 
 # IDE files
 .DS_Store
